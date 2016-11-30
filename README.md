@@ -23,7 +23,7 @@ Or you can just download the ocra packaged exe from the releases page.
 
 ## Credits
 
-Credits go to Gregor Kartsios and the other guys of Rocket Beans for providing such great content for free.
+Credits go to Gregor Kartsios and the other guys of Rocket Beans for providing such great content.
 
 Credit is also due to the creators of the awesome ruby libraries nokogiri,rubyfx and ocra for their excellent work! 
 
