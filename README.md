@@ -1,6 +1,5 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Plauschangriff Downloader}
+
+# Plauschangriff Downloader
 
 This is a tool to comfortably download the Rocket Beans Plauschangriff Podcasts by Gregor Kartsios.
 This program doesn't store any content whatsoever. The Podcasts are downloaded directly from the locations provided on http://www.rocketbeans.tv/plauschangriff.xml.
@@ -32,6 +31,3 @@ Credit is also due to the creators of the awesome ruby libraries nokogiri,rubyfx
 ## License
 
 This software is published under the MIT License
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
