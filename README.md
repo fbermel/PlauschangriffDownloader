@@ -8,9 +8,8 @@ This program doesn't store any content whatsoever. The Podcasts are downloaded d
 
 To run the ruby script you need a working ruby installation, obviously (testet to work with versions > 2.3.1) and the following gems:
 
-nokogiri
-
-rubyfx
+*nokogiri
+*rubyfx
 
 Or you can just download the ocra packaged exe from the releases page.
 
