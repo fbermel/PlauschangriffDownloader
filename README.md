@@ -32,7 +32,6 @@ Credit is also due to the creators of the awesome ruby libraries nokogiri,rubyfx
 ## License
 
 This software is published under the MIT License
-
 ]]></content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
