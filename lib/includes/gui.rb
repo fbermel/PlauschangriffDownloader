@@ -5,7 +5,7 @@ class Gui < FXMainWindow
 		@prepare = Prepare.new
 				
 		# Initialize base class first
-		super(app, "Plauschangriff Downloader", :opts => DECOR_ALL, :width => 460, :height => 165)
+		super(app, "Plauschangriff Downloader", :opts => DECOR_ALL, :width => 460, :height => 170)
 		
 		# Create GUI
 		
