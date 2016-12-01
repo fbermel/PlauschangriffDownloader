@@ -1,7 +1,11 @@
 class Xml
   
   def initialize
-    @doc = Nokogiri::XML(open("http://rocketbeans.tv/plauschangriff.xml"))
+    begin
+      @doc = Nokogiri::XML(open("http://rocketbeans.tv/plauschangriff.xml"))
+    rescue StandardError => e
+      raise StandardError.new(e)
+    end
   end
   
   def getPodcastNames
