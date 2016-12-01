@@ -65,7 +65,8 @@ class Gui < FXMainWindow
 				@lbl3.text = "Downloading: " + item.to_s + ".mp3"
 				download(url, @prepare.sanitize(name))
 			end
-		end		
+		end
+		@lbl3.text = "Done!"		
 	end
 
 
