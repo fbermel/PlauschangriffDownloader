@@ -1,4 +1,4 @@
-$:.unshift File.dirname(__FILE__)
+$:.unshift File.dirname($0)
 
 require 'fox16'
 include Fox
