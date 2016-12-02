@@ -28,8 +28,7 @@ end
     pod = escape_single_quotes_for_xpath(podcastname.to_s)
     expression = "//title[text() = #{pod}]/.."
     node = @doc.xpath(expression)
-    node.xpath('./enclosure/@url').to_s
-  
+    node.xpath('./enclosure/@url').to_s  
   end
   
 end
