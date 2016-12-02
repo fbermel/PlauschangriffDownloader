@@ -9,7 +9,6 @@ class Gui < FXMainWindow
     begin
       @xml = Xml.new
     rescue StandardError => e
-    #@errormessage.error(self, MBOX_OK, "Error", "Test")
       errorbox = FXMessageBox.new(self, "Error", "#{e}", :opts => MBOX_OK)
       errorbox.width  = 600
       errorbox.height = 200
@@ -29,7 +28,7 @@ class Gui < FXMainWindow
 
     @list1 = FXList.new(topFrameLeft, :opts => LAYOUT_FIX_WIDTH|LAYOUT_FIX_HEIGHT|LIST_EXTENDEDSELECT|LIST_MULTIPLESELECT, :width => 350, :height => 80)
     if(defined? @xml)
-    @list1.fillItems(@xml.getPodcastNames)
+      @list1.fillItems(@xml.getPodcastNames)
     end
 
     btnDownload = FXButton.new(topFrameRight, 'Download', :opts => FRAME_RAISED|FRAME_THICK|LAYOUT_FILL_X)
